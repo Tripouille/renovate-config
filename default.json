@@ -5,13 +5,13 @@
     "automerge": true,
     "prHourlyLimit": 5,
     "prConcurrentLimit": 5,
-    "stabilityDays": 7,
+    "stabilityDays": 1,
     "prCreation": "not-pending",
     "labels": ["dependencies"],
 
     "major": {
-        "dependencyDashboardApproval": true,
         "addLabels": ["major"],
+        "groupName": "major",
         "automerge": false
     }
 }
