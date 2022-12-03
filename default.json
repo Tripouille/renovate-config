@@ -1,16 +1,16 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": ["config:base", "schedule:nonOfficeHours"],
-    "timezone": "Europe/Paris",
-    "automerge": true,
-    "prHourlyLimit": 5,
-    "prConcurrentLimit": 5,
-    "stabilityDays": 1,
-    "prCreation": "not-pending",
-    "labels": ["dependencies"],
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base", "schedule:nonOfficeHours"],
+  "timezone": "Europe/Paris",
+  "automerge": true,
+  "prHourlyLimit": 5,
+  "prConcurrentLimit": 5,
+  "stabilityDays": 1,
+  "prCreation": "immediate",
+  "labels": ["dependencies"],
 
-    "major": {
-        "addLabels": ["major"],
-        "automerge": false
-    }
+  "major": {
+    "addLabels": ["major"],
+    "automerge": false
+  }
 }
